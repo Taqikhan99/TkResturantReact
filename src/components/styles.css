@@ -1,0 +1,165 @@
+.heroSec{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://preview.colorlib.com/theme/meal2/images/xhero_bg.jpg.pagespeed.ic.08xBTGP0Gm.webp');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    
+}
+.heroText{
+    opacity: 1.0;
+    color: white;
+    height: 300px;
+    
+}
+.heroText>h1{
+    font-size: 3rem;
+}
+.btn-exp{
+    width: 200px;
+    background-color: rgb(211, 141, 12);
+    color: white;
+    border: none;
+    padding: 5px;
+    transition: all 1s ease-in;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+.btn-exp:hover{
+    background-color: red; 
+}
+
+
+/* popularfoods Section */
+.foodstypeSec{
+    list-style: none;
+    padding-left: 0;
+    padding: 1px;
+}
+.foodTypes{
+    margin-top: 2rem;
+}
+.foodTypes>li{
+    cursor: pointer;
+    transition: all 0.7s ease-in;
+    width: 200px;
+    padding: 5px 20px;
+    border-radius: .5rem;
+}
+.foodTypes>li:hover{
+    background: rgb(151, 229, 240);
+}
+.foodTypes>li img{
+    width: 50px;
+    height:50px
+
+}
+.foodTypes>li  h5{
+    margin-left: 1rem;
+}
+.foodstypeSec{
+    background-color: #fee2b3 ;
+}
+.topSection{
+   
+    height: 100px;
+    padding:25px 10px
+   
+}
+.foodCards{
+    
+    height: auto;
+
+}
+
+/* card */
+.card>img{
+    height: 220px;
+    padding: 10px 20px;
+    transition: transform 0.7s ease-in;
+}
+.card>img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* desserts */
+.desertitems{
+    
+}
+.desert{
+    display: flex;
+    cursor: pointer;
+    transition: all 0.7s ease-in;
+    border-radius: .5rem;
+}
+.desert:hover{
+    background-color: whitesmoke;
+}
+.desert img{
+    width: 120px;
+    height: 120px;
+}
+
+.iconslist{
+    list-style: none;
+    padding-left: 0;
+    height: 60px;
+    width: auto;
+    display: flex;
+}
+.iconslist li{
+    height: 70%;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.6s ease-in;
+}
+.iconslist li:hover{
+    background-color: orange;
+    
+}
+.iconslist li>img{
+    height: 80%;
+    width: 100%;
+}
+/* media queries */
+/* @media screen and (max-width:800px) {
+    .desertitems{
+        flex-direction: column;
+    }
+} */
+.footerinfo p{
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.footerinfo p:hover{
+    background-color: rgb(195, 130, 7);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+/* contact form */
+.infoimage{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 160, 200);
+    margin-right: 20px;
+}
+.infoimage >img{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+#messagebox{
+    width: 100%;
+    resize: none;
+    
+}
+.ContactformSec{
+    background-color: #fee2b3;
+}
