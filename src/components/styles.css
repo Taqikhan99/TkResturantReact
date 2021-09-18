@@ -163,3 +163,52 @@
 .ContactformSec{
     background-color: #fee2b3;
 }
+
+
+/* about */
+/* why choose */
+.chooseus{
+    background-color: #fee2b3;
+}
+.chooseCard{
+    border: 1px solid gray;
+    transition: all 0.5s ease-in;
+}
+.chooseCard>h6{
+    transition: all 0.5s ease-in;
+}
+.chooseCard:hover{
+    transform:translateY(-10px);
+    background-color: orangered;
+}
+.chooseCard:hover,.chooseCard:hover h6{
+    cursor: pointer;
+    color: white !important;
+    
+    
+}
+
+/* chefs */
+.profChefs{
+    background-color: #f6cb82;
+}
+.chefcard{
+    height: 300px;
+    background-repeat: no-repeat !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    color: white;
+    background-size: cover !important;
+    background-position: center !important;
+    cursor: pointer;
+    transition: all .6s ease-in;
+}
+.chefcard:hover{
+    transform:translateY(-20px)
+}
+.chefinfo{
+    height: 50%;
+    
+}
